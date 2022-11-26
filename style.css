@@ -179,3 +179,15 @@ main h2 {
   border: 2px;
   border-style: solid;
 }
+
+footer {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+footer p {
+  margin: 0 auto;
+  color: white;
+}

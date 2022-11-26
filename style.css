@@ -1,13 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
+header {
+  color: #F9FAF8;
   background-color: #1F2937;
-  display: flex;
-  list-style: none;
+  min-height: 450px;
 }
 
-.navbar li {
+.top-section-part-1 {
+  display: flex;
+  padding: 20px 150px 15px;
+}
+
+.logo {
   flex: 1;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navbar * {
+  color: #E5E7EB;
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.top-section-part-2 {
+  display: flex;
+  padding: 80px 150px 150px;
+  gap: 2.5rem;
+}
+
+.image-placeholder {
+  background-color: grey;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.herotext {
+  flex: 1;
+}
+
+.herotext h1 {
+  font-size: 48px;
+}
+
+.herotext p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 8px 35px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.button-header {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.central-section {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin-bottom: 80px;
+}
+
+main h2 {
+  text-align: center;
+  padding: 30px;
+  color: #1F2937;
+  font-size: 36px;
+}
+
+.central-section .element {
+  flex-grow: 0;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.central-section .element .frame {
+  min-height: 160px;
+  min-width: 160px;
+  border: 4px;
+  border-radius: 15px;
+  border-color: #3882F6;
+  border-style: solid;
+}
+
+.central-section .element p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 300px 120px;
+}
+
+.quote blockquote {
+
 }
